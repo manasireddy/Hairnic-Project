@@ -1,0 +1,147 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.bgimg
+{
+  background-image: url('./img/bg.png');
+  background-color: #90bc79;
+}
+/* .nav-link a:active
+{
+  color: white;
+} */
+/* body:hover img
+{
+  transform: scale(1.1,1.1);
+  transition: 2s;
+}*/
+.image
+{
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+@keyframes anim
+{
+  0%{transform: scaleX(1);}
+  50%{transform: scale3d(1.05,1.05,1.05);}
+  100%{transform: scaleX(1);}
+}
+.ncard
+{
+  background-color: #90bc79;
+  outline: 15px solid #90bc79;
+}
+.fa-star
+{
+  color: #90bc79;
+}
+.btn1
+{
+  border: 3px solid #90bc79 !important;
+  background-color: white !important;
+  color: #90bc79 !important;
+}
+.btn1:hover
+{
+  background-color: #90bc79 !important;
+  color: white !important;
+}
+.pcard .card:hover 
+{
+  transform: scale(1.01,1.01);
+  transition: 1s;
+  box-shadow: 5px 6px 7px 8px lightgray !important;
+}
+.carousel .carousel-control-prev
+{
+  display: none;
+}
+.carousel .carousel-control-next
+{
+  display: none;
+}
+.carousel .carousel-indicators button
+{
+  height: 25px !important;
+  width: 25px !important;
+  border-radius: 50% !important;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-bottom: -100px !important;
+}
+.carousel-indicators .active
+{
+  background-color: black !important;
+  color: white !important;
+}
+.f a
+{
+  color: black;
+  text-decoration: none;
+}
+.f a:hover
+{
+  color: #90bc79;
+}
+.breadcrumb-item a
+{
+  color: gray;
+  text-decoration: none;
+}
+a
+{
+  color: black !important;
+  font-size: 20px !important;
+  text-decoration: none !important;
+  margin-right: 20px;
+}
+.cnt a
+{
+  color: #90bc79 !important;
+}
+.NavDropdown .NavDropdown.Item
+{
+  background-color: white !important;
+}
